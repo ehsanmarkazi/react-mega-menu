@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
+import Button from './Button';
 export const Navbar = () => {
   return (
     <nav className="bg-purple-500">
@@ -8,12 +9,17 @@ export const Navbar = () => {
         <div>
           <img src="" alt="logo" className="md:cursor-pointer" />
         </div>
-        <ul>
+        <ul className="md:flex hidden  uppercase items-center gap-8 font-medium">
           <li>
-            <Link to='/' className="py-7 px-3 inline-block">Home</Link>
+            <Link to="/" className="py-7 px-3 inline-block">
+              Home
+            </Link>
           </li>
-          <NavLinks/>
+          <NavLinks />
         </ul>
+        <div>
+          <Button></Button>
+        </div>
       </div>
     </nav>
   );
