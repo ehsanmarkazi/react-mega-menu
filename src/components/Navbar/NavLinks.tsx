@@ -1,7 +1,7 @@
 import React from "react";
 
 const NavLinks = () => {
-  const links = [{ name: "Men" }, { name: "Women" }, { name: 'Kid"s' }];
+  const links = [{ name: "Men" }, { name: "Women" }, { name: "Kid's" }];
   return (
     <>
       {links.map((link) => (
