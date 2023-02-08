@@ -17,7 +17,7 @@ export const Navbar = () => {
           </li>
           <NavLinks />
         </ul>
-        <div>
+        <div className="md:block hidden">
           <Button></Button>
         </div>
       </div>
