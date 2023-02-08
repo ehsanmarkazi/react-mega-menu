@@ -20,6 +20,15 @@ export const Navbar = () => {
         <div className="md:block hidden">
           <Button></Button>
         </div>
+        {/* Mobile Nav */}
+        <ul>
+          <li>
+            <Link to="/" className="py-7 px-3 inline-block">
+              Home
+            </Link>
+          </li>
+          <NavLinks/>
+        </ul>
       </div>
     </nav>
   );
