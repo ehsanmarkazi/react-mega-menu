@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
-import Button from './Button';
+import Button from "./Button";
 export const Navbar = () => {
   return (
     <nav className="bg-purple-500">
@@ -21,13 +21,20 @@ export const Navbar = () => {
           <Button></Button>
         </div>
         {/* Mobile Nav */}
-        <ul>
+        <ul
+          className={`
+            md:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4
+        `}
+        >
           <li>
             <Link to="/" className="py-7 px-3 inline-block">
               Home
             </Link>
           </li>
-          <NavLinks/>
+          <NavLinks />
+          <div className="py-5">
+            <Button/>
+          </div>
         </ul>
       </div>
     </nav>
