@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import links from "./myLinks";
+import data from "./myLinks";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
     <>
-      {links.map((link) => (
+      {data.map((link) => (
         <div>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1

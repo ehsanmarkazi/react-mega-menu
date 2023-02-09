@@ -1,172 +1,175 @@
- const links = [
-  {
-    name: "Men",
-    submenu: true,
-    subLinks: [
-      {
-        Head: "TOPWEAR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "BOTTOMWEAR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "FOOTERWEASR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "sleepwear",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Women",
-    submenu: true,
-    subLinks: [
-      {
-        Head: "TOPWEAR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "BOTTOMWEAR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "FOOTERWEASR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "sleepwear",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Kid's",
-    submenu: true,
-    subLinks: [
-      {
-        Head: "TOPWEAR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "BOTTOMWEAR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "FOOTERWEASR",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "innerwear",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-      {
-        Head: "sleepwear",
-        subLink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-          { name: "Formal shirt", link: "/" },
-        ],
-      },
-    ],
-  },
-];
+ const data = [
+   {
+     id: 1,
+     name: "Link",
+     submenu: true,
+     subLinks: [
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+     ],
+   },
+   {
+     id: 2,
+     name: "Link",
+     submenu: true,
+     subLinks: [
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+     ],
+   },
+   {
+     id: 3,
+     name: "Link",
+     submenu: true,
+     subLinks: [
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+       {
+         Head: "Head",
+         subLink: [
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+           { name: "SubLinks", link: "/" },
+         ],
+       },
+     ],
+   },
+ ];
 
-export default links;
+export default data;
