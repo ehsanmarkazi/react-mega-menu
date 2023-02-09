@@ -2,12 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import Button from "./Button";
+
 export const Navbar = () => {
   return (
     <nav className="bg-purple-500">
       <div className="flex items-center font-medium justify-around">
-        <div className="z-50 p-5 md:w-auto w-full">
-          <img src="" alt="logo" className="md:cursor-pointer" />
+        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+          <img src="" alt="logo" className="md:cursor-pointer h-9" />
+          <div className="text-3xl">
+            <span className="material-symbols-outlined">menu</span>
+          </div>
         </div>
         <ul className="md:flex hidden  uppercase items-center gap-8 font-medium">
           <li>
@@ -33,7 +37,7 @@ export const Navbar = () => {
           </li>
           <NavLinks />
           <div className="py-5">
-            <Button/>
+            <Button />
           </div>
         </ul>
       </div>
