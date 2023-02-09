@@ -11,15 +11,22 @@ const NavLinks = () => {
         <div>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
-              className="py-7 "
+              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
               }}
             >
               {link.name}
-              <span>
-                
+              <span className="text-xl md:hidden inline">
+                <span className="material-symbols-outlined">{`${
+                  heading === link.name ? "expand_more" : "expand_less"
+                }`}</span>
+              </span>
+              <span className="text-xl md:mt-1 md:ml-2 md:block  hidden group-hover:rotate-180 group-hover:-mt-2 ">
+                <span className="material-symbols-outlined">
+                  {"expand_less "}
+                </span>
               </span>
             </h1>
 
@@ -66,9 +73,16 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-4 font-semibold md:pr-0 pr-5"
+                    className="py-4 pl-4 font-semibold md:pr-0 pr-5 flex justify-between items-center"
                   >
                     {slinks.Head}
+                    <span className="text-xl md:mt-1 md:ml-2 inline">
+                      <span className="material-symbols-outlined">{`${
+                        subHeading === slinks.Head
+                          ? "expand_more"
+                          : "expand_less"
+                      }`}</span>
+                    </span>
                   </h1>
                   <div
                     className={`${
@@ -77,7 +91,9 @@ const NavLinks = () => {
                   >
                     {slinks.subLink.map((slink) => (
                       <li className="py-3 pl-14">
-                        <Link to={slink.link}>{slink.name}</Link>
+                        <Link to={slink.link} className="hover:text-primary">
+                          {slink.name}
+                        </Link>
                       </li>
                     ))}
                   </div>
