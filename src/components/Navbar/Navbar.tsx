@@ -6,7 +6,7 @@ import Button from "./Button";
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-purple-500">
+    <nav className="bg-white">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img src="" alt="logo" className="md:cursor-pointer h-9" />
