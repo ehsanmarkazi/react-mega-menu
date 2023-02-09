@@ -1,4 +1,4 @@
-export const links = [
+ const links = [
   {
     name: "Men",
     submenu: true,
@@ -168,3 +168,5 @@ export const links = [
     ],
   },
 ];
+
+export default links;
